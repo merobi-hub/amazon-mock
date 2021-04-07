@@ -20,7 +20,6 @@ fieldset{
     border: 1px solid #ddd;
     border-radius: 3px;
     padding: 10px 25px 10px;
-    margin-bottom: 0px;
     margin-top: 0px;
 }
 
@@ -52,10 +51,23 @@ h8 {
 }
 
 .new {
-    width: 100%;
+    margin-top: 10px;
+    border-top: 1px solid gray;
+    width: 70%;
+    margin-left: 15%;
     text-align: center;
     padding: 0px;
     color: gray;
+}
+
+span.newacct {
+    margin-left: 38%;
+    float: left;
+    color: gray;
+    width: 25%;
+    text-align: center;
+    padding: 0px;
+    background-color: white;
 }
 
 .create {
